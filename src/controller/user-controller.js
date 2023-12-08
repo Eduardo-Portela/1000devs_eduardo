@@ -6,6 +6,7 @@ const calculaIdade = (req, res) => {
     res.json({
         "Nome": "Eduardo",
         "Cidade": "Caruaru",
+        "UF": "PE", 
         "Profissão": "Programador",
         "Nascimento": idade
     })
